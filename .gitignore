@@ -1,0 +1,34 @@
+/target
+Cargo.lock
+# paper
+paper/*.aux
+paper/*.glo
+paper/*.idx
+paper/*.log
+paper/*.toc
+paper/*.ist
+paper/*.acn
+paper/*.acr
+paper/*.alg
+paper/*.bbl
+paper/*.blg
+paper/*.dvi
+paper/*.glg
+paper/*.gls
+paper/*.ilg
+paper/*.ind
+paper/*.lof
+paper/*.lot
+paper/*.maf
+paper/*.mtc
+paper/*.mtc1
+paper/*.out
+paper/*.synctex.gz
+paper/qasm/build
+paper/qasm/qasm/*
+!paper/qasm/qasm/.gitkeep
+paper/qasm/out
+# qasmparser
+examples/qasm-parser
+examples/*.txt
+examples/*.log
